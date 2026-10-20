@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+  # Only render the site pages, never templates or examples elsewhere in the repo
+  render:
+    - "*.qmd"
+
+website:
+  title: "Methods Hub Submission Guidelines"
+  site-url: "https://YOUR-ORG.github.io/YOUR-REPO/"
+  repo-url: "https://github.com/YOUR-ORG/YOUR-REPO"
+  repo-actions: [edit, issue]
+  search: true
+  page-navigation: true
+  navbar:
+    left:
+      - text: "Methods Hub"
+        href: https://methodshub.gesis.org
+    right:
+      - icon: envelope
+        href: mailto:methodshub@gesis.org
+        aria-label: Email the Methods Hub team
+      - icon: github
+        href: "https://github.com/YOUR-ORG/YOUR-REPO"
+        aria-label: GitHub repository
+  sidebar:
+    style: docked
+    search: false
+    contents:
+      - index.qmd
+      - scope.qmd
+      - criteria.qmd
+      - checklist.qmd
+      - faq.qmd
+      - support.qmd
+  page-footer:
+    left: "© GESIS – Leibniz Institute for the Social Sciences"
+    right: "[methodshub@gesis.org](mailto:methodshub@gesis.org)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    toc-depth: 3
+    number-sections: false
+    link-external-newwindow: true

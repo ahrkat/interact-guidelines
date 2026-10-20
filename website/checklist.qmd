@@ -1,0 +1,17 @@
+---
+title: "Submission Process"
+---
+
+Does your method or tutorial meet the [criteria](criteria.qmd), and are you ready to submit? Use this checklist as a guide through the submission process.
+
+1. **Prepare your submission.** All necessary files are described under [Documentation quality](criteria.qmd#documentation-quality).
+2. **Test it.** Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
+3. **Log in.** Create an account on the Methods Hub or log in to your existing account.
+4. **Submit.** Go to *Submit* → [TODO: complete this step]{.todo}
+5. **Fill out the form.** [TODO: describe the form]{.todo}
+6. **Review.** We check whether your submission fulfills the Methods Hub criteria. We may get back to you with suggestions for improvement, or accept it for publication.
+7. **Publication.** Once published, your method or tutorial gets its own page on the Methods Hub and a DOI that you can share and others can cite.
+
+::: {.callout-tip}
+Questions during the process? See the [FAQ](faq.qmd) or [contact us](support.qmd).
+:::

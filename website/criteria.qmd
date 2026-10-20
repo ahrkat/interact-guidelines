@@ -1,0 +1,84 @@
+---
+title: "Submission Criteria"
+---
+
+The Methods Hub publishes resources that
+
+1. fall within the **scope** of the social sciences and are relevant to them,
+2. follow the principles of **open** science, and
+3. meet standards of **quality** and accessibility.
+
+If your method or tutorial meets these criteria, submit it for review on the [Methods Hub Portal](https://methodshub.gesis.org). Every submission is checked for compliance with the criteria before publication. Each criterion is described in more detail below.
+
+## Scope
+
+- The method or tutorial is relevant for the social sciences.
+- The method or tutorial belongs to a relevant task of the [Methods Hub Tasks Taxonomy](https://methodshub.gesis.org/submit/taxonomy/). If it does not fit into our taxonomy, contact us at [methodshub@gesis.org](mailto:methodshub@gesis.org).
+
+## Openness
+
+- The method or tutorial is developed in an open-source programming language (e.g., Python or R).
+- The method or tutorial is publicly accessible in a Git repository.
+- For methods: the Git repository contains one and only one method.
+- The method or tutorial is [published under an open license](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project).
+
+## Quality
+
+This section outlines documentation and code quality criteria.
+
+[TODO: add criteria for interactive environments?]{.todo}
+
+### Documentation quality
+
+These files **must** be in your Git repository before you submit.
+
+**The content file.** Your repository needs a file containing the content that is rendered on the Methods Hub page. It should follow the structure of our templates.
+
+- **Methods:** a [Methods Hub–friendly README](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) (can be `README.md` or another file).
+- **Tutorials:** the tutorial itself, in one of the accepted formats:
+  - [Quarto](https://quarto.org/) (`.qmd`) – see the template [`tutorial/template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd)
+  - [Jupyter Notebook](https://nbformat.readthedocs.io/en/latest/index.html) (`.ipynb`) – see the template [`tutorial/template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb). Jupyter Notebooks are limited to a single programming language.
+  - [R Markdown](https://rmarkdown.rstudio.com/) (`.Rmd`) – if possible, port it to Quarto.
+  - [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (`.md`)
+
+**A Binder environment.** Your repository contains the files needed to set up a [Binder environment](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html#managing-languages) for the Methods Hub. These configuration files can be at the root level or in a directory named `.binder` or `binder`.
+
+- A configuration file for installing all requirements, e.g., [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt) for Python, [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R) for R, or [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) for conda and other languages. We recommend pinning dependency versions.
+- The [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) file that installs Quarto.
+- The Binder environment builds without errors.
+
+**License and citation.**
+
+- A `LICENSE` file with an [open license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) at the root level.
+- A [`CITATION.cff`](https://citation-file-format.github.io/) file at the root level.
+
+**Reproducibility.** All examples can be reproduced with reasonable accuracy using only publicly available resources.
+
+#### Checklist of required files
+
+| File | Resource | Purpose | Template | Notes |
+|---|---|---|---|---|
+| README | Method | Contains content | [README template](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) | |
+| Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd) or [`template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
+| Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) | Pin dependency versions |
+| postBuild | Both | Build process | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) | |
+| LICENSE | Both | Open license | [TODO: add example]{.todo} | |
+| CITATION.cff | Both | Citation | [TODO: add example]{.todo} | |
+
+: Files your repository should contain {.striped .hover}
+
+### Code quality
+
+- The method code contains documentation (comments) for parameters and decisions, so that others can adjust the method.
+- The method code is structured into modules (where needed).
+
+::: {.callout-note}
+## Exemption for peer-reviewed software
+The code quality criteria can be skipped for methods with a paper published in one of the following trusted third-party review venues:
+
+- [Journal of Open Source Software](https://joss.theoj.org/)
+- [The R Journal](https://journal.r-project.org/)
+- [rOpenSci](https://ropensci.org/)
+
+You can suggest further venues by email to the [Methods Hub team](mailto:methodshub@gesis.org).
+:::

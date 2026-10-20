@@ -1,0 +1,91 @@
+---
+title: "FAQ"
+subtitle: "Frequently asked questions"
+engine: markdown
+---
+
+### What is the Methods Hub?
+
+The Methods Hub is an infrastructure platform that provides openly accessible, reusable computational methods for working with digital behavioral data in social science research.
+
+### Who can submit a method or tutorial?
+
+Researchers, practitioners, and developers in computational social science, computer science, natural language processing, and related fields.
+
+### Can I publish my computational method on the Methods Hub?
+
+Yes, provided it is open access, openly licensed, and belongs to a relevant task of the [Tasks Taxonomy](https://methodshub.gesis.org/about/how-to-submit/taxonomy).
+
+### How can I increase my chances of getting my method published?
+
+Provide well-written documentation following the README template, include all [necessary files](criteria.qmd#documentation-quality), and make the code reusable with no or minimal user involvement.
+
+### Which programming languages are supported?
+
+The platform supports **only** open-source programming languages, such as Python and R.
+
+### Can I publish a method or tutorial that uses a paid API or tool?
+
+No. Methods and tutorials on the Methods Hub must be fully reusable, and all resources they use, including APIs and packages, must be openly accessible to everyone.
+
+### What if my method is already published in a peer-reviewed journal?
+
+Methods published in [trusted third-party venues](criteria.qmd#code-quality) with proper documentation and code quality can be submitted directly.
+
+### Should I write a tutorial about my method?
+
+Yes. Tutorials extend a method's reach to researchers and practitioners with limited practical experience of AI methods. We highly recommend writing a step-by-step tutorial that applies your method to a research question.
+
+### Can I write a tutorial about someone else's method?
+
+Yes. You can write tutorials about other developers' methods, including methods not published on the Methods Hub, as long as they are of interest to the Methods Hub audience.
+
+### Where should the code be hosted?
+
+In a publicly accessible Git repository, e.g., on GitHub, GitLab, or similar.
+
+### What happens when I submit my method?
+
+Your submission is held for review. During this period, reviewers may open issues in your Git repository if modifications are needed. Once all issues are resolved, the method is published on the portal.
+
+### What does it mean that a method is published?
+
+It appears in the Methods Hub gallery and, from the next day on, is searchable through GESIS Search.
+
+### What is the difference between code processed by `knitr` and `jupyter`?
+
+There is one subtle but important difference between code execution in `knitr` (Quarto's default renderer for R code) and Jupyter. Take this R code block (see the provided file `code_exec.qmd`):
+
+````markdown
+```{{r}}
+mean(mtcars$mpg)
+plot(mtcars$mpg, mtcars$wt)
+```
+````
+
+When you render it into a notebook with [Quarto](https://quarto.org/) using
+
+```sh
+quarto render code_exec.qmd --to=ipynb
+```
+
+all code blocks are rendered, but the plotting line is removed. There are two ways to fix this.
+
+**Option 1:** Use `quarto convert` instead, which generates an empty `.ipynb`:
+
+```sh
+quarto convert code_exec.qmd -o code_exec.ipynb
+```
+
+**Option 2:** Split the code into one line per block, and add the execution option to the plotting block. Only then will `quarto render` keep the visualization code:
+
+````markdown
+```{{r}}
+mean(mtcars$mpg)
+```
+
+```{{r}}
+#| echo: true
+plot(mtcars$mpg, mtcars$wt)
+```
+````

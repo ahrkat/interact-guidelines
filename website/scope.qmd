@@ -1,0 +1,42 @@
+---
+title: "Aim and Scope"
+---
+
+The Methods Hub aims to provide social scientists with high-quality, open-access, and easy-to-use computational resources for:
+
+- **data collection**
+- **preprocessing**
+- **data analysis**
+- **data visualization**
+- **validation and evaluation**
+- **computational workflows**
+
+A special focus of the Methods Hub is on resources that work on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data), but other resources are also welcome.
+
+With this, we want to promote the use of computational methods in the social sciences, lower technical barriers, and build a community-driven space for the field. We also offer [interactive execution environments](#interactive-env) so everyone can try methods and tutorials with a single click. For contributors, we provide a platform where they can reach their community. Every published item on the Methods Hub gets a DOI, making the resources citable.
+
+## What you can publish
+
+### Methods {#methods}
+
+A **method** on the Methods Hub is a computational procedure that can be employed to address social science problems. It is published in a code repository, encompassing scripts, packages, libraries, or notebooks, and follows our guidelines – most importantly, being reusable, free, and open source software (FOSS).
+
+For example, you can submit an R package for preprocessing social media data. For details on how to prepare a method, see the [Method Template](https://methodshub.gesis.org/).
+
+**Example methods:** [TODO: add examples]{.todo}
+
+### Tutorials {#tutorials}
+
+A **tutorial** on the Methods Hub is a written, recorded, and/or interactive introduction to a workflow, tool, or one or more methods. It is an instructional resource that can be used for self-guided learning.
+
+Tutorials should focus on concrete tasks and offer code that helps researchers solve them (e.g., how to preprocess data for topic modeling). They may apply methods featured on the Methods Hub, but can also refer to methods published elsewhere, and a tutorial can feature more than one method. For details on how to prepare a tutorial, see the [Tutorial Template](https://methodshub.gesis.org/).
+
+**Example tutorials:** [TODO: add examples]{.todo}
+
+## A bonus: interactive environments {#interactive-env}
+
+To ensure an exploratory user experience, we prefer methods and tutorials that include interactive elements, where users can modify one or more parameters and see how their changes affect the script's behavior. For this, we integrate so-called **interactive environments**.
+
+[TODO: describe the available interactive environments]{.todo}
+
+Learn how to optimize your method or tutorial for a great [interactive user experience](https://methodshub.gesis.org/).

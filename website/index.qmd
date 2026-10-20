@@ -1,0 +1,18 @@
+---
+title: "Methods Hub Submission Guidelines"
+subtitle: "How to contribute a method or tutorial"
+---
+
+Are you interested in contributing a method or tutorial to the [Methods Hub](https://methodshub.gesis.org)? These pages answer the following questions:
+
+- What are the [aim and scope](scope.qmd) of the Methods Hub?
+- What qualifies as a [method](scope.qmd#methods) and what as a [tutorial](scope.qmd#tutorials)?
+- What are the Methods Hub's [submission criteria](criteria.qmd)?
+- Ready for submission? Follow the [submission checklist](checklist.qmd).
+- Still unsure? Read the [FAQ](faq.qmd).
+- Where and how can you get [support](support.qmd)?
+
+::: {.callout-tip}
+## Every published item gets a DOI
+Everything published on the Methods Hub receives a DOI, which makes your method or tutorial citable.
+:::

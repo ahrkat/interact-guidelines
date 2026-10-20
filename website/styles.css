@@ -1,0 +1,15 @@
+/* Visible marker for content that still needs to be written */
+.todo {
+  background: #fff3cd;
+  color: #664d03;
+  border: 1px dashed #e0a800;
+  border-radius: 4px;
+  padding: 0 0.35em;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+/* Slightly roomier tables */
+table td, table th {
+  vertical-align: top;
+}
