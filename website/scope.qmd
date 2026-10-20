@@ -42,7 +42,7 @@ Tutorials should focus on concrete tasks and offer code that helps researchers s
 
 **Example tutorials:** [TODO: add examples]{.todo}
 
-## A bonus: interactive environments {#interactive-env}
+## What makes us special: interactive environments {#interactive-env}
 
 To ensure an exploratory user experience, we prefer methods and tutorials that include interactive elements, where users can modify one or more parameters and see how their changes affect the script's behavior. For this, we integrate so-called **interactive environments**.
 
