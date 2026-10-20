@@ -6,7 +6,7 @@ project:
     - "*.qmd"
 
 website:
-  title: "How to submit to the Methods"
+  title: "How to submit to the Methods Hub"
   site-url: "https://YOUR-ORG.github.io/YOUR-REPO/"
   repo-url: "https://github.com/YOUR-ORG/YOUR-REPO"
   repo-actions: [edit, issue]
