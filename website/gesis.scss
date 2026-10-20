@@ -114,3 +114,11 @@ $code-color:    $gs-berry;
   color: #6b5800;
   border: 1px dashed $gs-yellow;
 }
+
+ul.task-list {
+  list-style: none;
+  padding-left: 0.5em;
+}
+ul.task-list li input[type="checkbox"] {
+  margin-right: 0.4em;
+}
