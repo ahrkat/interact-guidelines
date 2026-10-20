@@ -1,0 +1,116 @@
+/*-- scss:defaults --*/
+// GESIS / Methods Hub palette (from methodshub.gesis.org)
+$gs-darkblue:        #003C78;
+$gs-darkblue-hover:  #002F5E;
+$gs-darkblue-14:     #DBE3EC;
+$gs-lightblue:       #1E8CC8;
+$gs-lightblue-text:  #1B7DB1;
+$gs-lightblue-8:     #EDF6FB;
+$gs-pink:            #D20064;
+$gs-pink-14:         #F9DBE9;
+$gs-berry:           #642878;
+$gs-yellow:          #FAD205;
+$gs-yellow-14:       #FFF9DB;
+$gs-olive:           #699E6E;
+$gs-grey:            #F6F6F6;
+$gs-text:            #212529;
+
+// Base colors
+$primary:   $gs-darkblue;
+$secondary: $gs-lightblue;
+$info:      $gs-lightblue;
+$success:   $gs-olive;
+$warning:   $gs-yellow;
+$danger:    $gs-pink;
+
+$body-bg:    #ffffff;
+$body-color: $gs-text;
+
+// Links and headings
+$link-color:            $gs-darkblue;
+$link-hover-color:      $gs-pink;
+$headings-color:        $gs-darkblue;
+$headings-font-weight:  700;
+
+// Typography
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", -apple-system, "Segoe UI", sans-serif;
+
+// Navbar: white like the Methods Hub header
+$navbar-bg:        #ffffff;
+$navbar-fg:        $gs-darkblue;
+$navbar-hl:        $gs-pink;
+
+// Sidebar
+$sidebar-bg:       $gs-grey;
+$sidebar-fg:       $gs-text;
+$sidebar-hl:       $gs-darkblue;
+
+// Footer: dark blue like the Methods Hub footer
+$footer-bg:        $gs-darkblue;
+$footer-fg:        #ffffff;
+
+// Callouts
+$callout-color-note:    $gs-lightblue;
+$callout-color-tip:     $gs-olive;
+$callout-color-warning: $gs-yellow;
+$callout-color-important: $gs-pink;
+$callout-color-caution: $gs-berry;
+
+// Code
+$code-color:    $gs-berry;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap");
+
+// Thin GESIS-blue bar under the navbar
+.navbar {
+  border-bottom: 3px solid $gs-darkblue;
+}
+.navbar-title {
+  font-weight: 700;
+}
+
+// Active sidebar item: blue text with a pink marker, as on the portal
+.sidebar-navigation .sidebar-item .active,
+.sidebar-navigation .sidebar-link.active {
+  color: $gs-darkblue;
+  font-weight: 600;
+  border-left: 3px solid $gs-pink;
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+// Right-hand "On this page" outline
+#TOC .nav-link.active,
+#TOC a.active {
+  color: $gs-pink;
+  border-left-color: $gs-pink;
+}
+
+// Page title area
+.quarto-title .title {
+  color: $gs-darkblue;
+}
+.quarto-title .subtitle {
+  color: $gs-lightblue-text;
+}
+
+// Tables
+.table thead th {
+  background-color: $gs-darkblue-14;
+  color: $gs-darkblue;
+  border-bottom: 2px solid $gs-darkblue;
+}
+
+// Footer links stay readable on dark blue
+.nav-footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+// TODO markers in GESIS yellow
+.todo {
+  background: $gs-yellow-14;
+  color: #6b5800;
+  border: 1px dashed $gs-yellow;
+}

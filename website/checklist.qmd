@@ -1,16 +1,50 @@
 ---
-title: "Submission Process"
+title: "Prepare your Submission"
+subtitle: "Learn how to prepare your submission for the Methods Hub"
 ---
 
 Does your method or tutorial meet the [criteria](criteria.qmd), and are you ready to submit? Use this checklist as a guide through the submission process.
 
-1. **Prepare your submission.** All necessary files are described under [Documentation quality](criteria.qmd#documentation-quality).
-2. **Test it.** Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
-3. **Log in.** Create an account on the Methods Hub or log in to your existing account.
-4. **Submit.** Go to *Submit* → [TODO: complete this step]{.todo}
-5. **Fill out the form.** [TODO: describe the form]{.todo}
-6. **Review.** We check whether your submission fulfills the Methods Hub criteria. We may get back to you with suggestions for improvement, or accept it for publication.
-7. **Publication.** Once published, your method or tutorial gets its own page on the Methods Hub and a DOI that you can share and others can cite.
+## Check if you included all necessary files! 
+
+All necessary files are described under [Documentation quality](criteria.qmd#documentation-quality).
+
+
+| File | Resource | Purpose | Template | Notes |
+|---|---|---|---|---|
+| README | Method | Contains content | [README template](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) | |
+| Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd) or [`template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
+| Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) | Pin dependency versions |
+| postBuild | Both | Build process | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) | |
+| LICENSE | Both | Open license | [TODO: add example]{.todo} | |
+| CITATION.cff | Both | Citation | [TODO: add example]{.todo} | |
+
+: Files your repository should contain {.striped .hover}
+
+## Check how well your submission works in the interactive environments
+
+**Test it.** Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
+
+## Create an or log into your account on the Methods Hub 
+
+Create an account on the Methods Hub or log in to your existing account.
+
+## Submit! 
+
+Go to *Submit* → [TODO: complete this step]{.todo}
+
+and fill out the form.** [TODO: describe the form]{.todo}
+
+## Wait for our check
+
+We check whether your submission fulfills the Methods Hub criteria. We may get back to you with suggestions for improvement, or accept it for publication.
+
+## Potentially: Revise your submission 
+
+## Get published!
+... 
+Once published, your method or tutorial gets its own page on the Methods Hub and a DOI that you can share and others can cite.
+
 
 ::: {.callout-tip}
 Questions during the process? See the [FAQ](faq.qmd) or [contact us](support.qmd).

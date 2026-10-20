@@ -1,5 +1,6 @@
 ---
 title: "Submission Criteria"
+subtitle: "Placeholder"
 ---
 
 The Methods Hub publishes resources that
