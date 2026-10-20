@@ -17,7 +17,7 @@ With this, we want to promote the use of computational methods in the social sci
 
 ## Why should you share your expertise on the Methods Hub?
 
-[TODO: add arguments]{.todo}
+[TODO: add arguments]
 
 ::: {.callout-tip}
 ## Every published item gets a DOI
@@ -32,7 +32,7 @@ A **method** on the Methods Hub is a computational procedure that can be employe
 
 For example, you can submit an R package for preprocessing social media data. For details on how to prepare a method, see the [Method Template](https://methodshub.gesis.org/).
 
-**Example methods:** [TODO: add examples]{.todo}
+**Example methods:** [TODO: add examples]
 
 ### Tutorials {#tutorials}
 
@@ -40,12 +40,13 @@ A **tutorial** on the Methods Hub is a written, recorded, and/or interactive int
 
 Tutorials should focus on concrete tasks and offer code that helps researchers solve them (e.g., how to preprocess data for topic modeling). They may apply methods featured on the Methods Hub, but can also refer to methods published elsewhere, and a tutorial can feature more than one method. For details on how to prepare a tutorial, see the [Tutorial Template](https://methodshub.gesis.org/).
 
-**Example tutorials:** [TODO: add examples]{.todo}
+**Example tutorials:** [TODO: add examples]
 
 ## What makes us special: interactive environments {#interactive-env}
 
 To ensure an exploratory user experience, we prefer methods and tutorials that include interactive elements, where users can modify one or more parameters and see how their changes affect the script's behavior. For this, we integrate so-called **interactive environments**.
 
-[TODO: describe the available interactive environments]{.todo}
+[TODO: add more]
+
 
 Learn how to optimize your method or tutorial for a great [interactive user experience](https://methodshub.gesis.org/).

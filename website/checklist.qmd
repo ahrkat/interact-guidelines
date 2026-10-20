@@ -7,18 +7,19 @@ Does your method or tutorial meet the [criteria](criteria.qmd), and are you read
 
 ## 1. Check if your submission falls within our scope! 
 
-- [ ] Did you make explicit how it is related to social science?
-- [ ] Is it open... 
-- 
+[ ] Did you make explicit how it is related to social science?
+[ ] Is it open... 
+
 
 ## 2. Check how much you considered the readers of your submission!
 
 The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 
 
 Ideally,
-- [ ] Comment all processes and the code
-- [ ] Make your submission interactive
-- [ ] Check for spelligns and language
+
+[ ] Comment all processes and the code
+[ ] Make your submission interactive
+[ ] Check for spelligns and language
 
 Check our tips!
 

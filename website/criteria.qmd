@@ -13,7 +13,7 @@ If your method or tutorial meets these criteria, submit it for review on the [Me
 
 Additionally, we place a high value on **interactive** submissions! What does this mean? To ensure an exploratory user experience, we prefer methods and tutorials that include interactive elements, where users can modify one or more parameters and see how their changes affect the script's behavior. For this, we integrate so-called **interactive environments**. -> Learn here how to get the most out of your submission! 
 
-[TODO: describe the available interactive environments]{.todo}
+[TODO: add more?]
 
 ## Scope
 
@@ -31,7 +31,7 @@ Additionally, we place a high value on **interactive** submissions! What does th
 
 This section outlines documentation and code quality criteria.
 
-[TODO: add criteria for interactive environments?]{.todo}
+[TODO: add more relating to interactive env?]
 
 ### Documentation quality
 
