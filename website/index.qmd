@@ -11,3 +11,11 @@ Are you interested in contributing a method or tutorial to the [Methods Hub](htt
 - Ready for submission? Follow the [submission checklist](checklist.qmd).
 - Still unsure? Read the [FAQ](faq.qmd).
 - Where and how can you get [support](support.qmd)?
+
+## What is the Methods Hub?
+
+
+## Our features
+### Set Taxonomy
+### Interactive Environements
+### Making Methods Citable

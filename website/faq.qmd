@@ -1,7 +1,6 @@
 ---
-title: "FAQ"
-subtitle: "Frequently asked questions"
-engine: markdown
+title: "Frequently Asked Questions"
+subtitle: "Any questions on your mind? Check our FAQ"
 ---
 
 ### What is the Methods Hub?

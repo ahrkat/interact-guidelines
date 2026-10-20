@@ -1,0 +1,19 @@
+---
+title: "Our recommendations"
+subtitle: "We gathered a few suggestions for you to make the most out of your submission"
+---
+
+The target audience of your submissions are... How can you...
+
+
+### Add explanations!
+
+Commentings
+
+### Make it interactive! 
+
+Tips for interactive env preparation.
+
+### Tip 3
+
+### Tip 4

@@ -5,6 +5,23 @@ subtitle: "Learn how to prepare your submission for the Methods Hub"
 
 Does your method or tutorial meet the [criteria](criteria.qmd), and are you ready to submit? Use this checklist as a guide through the submission process.
 
+## Check if your submission falls within our scope! 
+
+- [] Did you make explicit how it is related to social science?
+- [] Is it open... 
+- 
+
+## Check how much you considered the readers of your submission
+
+The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 
+
+Ideally,
+- [] Comment all processes and the code
+- [] Make your submission interactive
+- [] Check for spelligns and language
+
+Check our tips!
+
 ## Check if you included all necessary files! 
 
 All necessary files are described under [Documentation quality](criteria.qmd#documentation-quality).
@@ -29,7 +46,7 @@ All necessary files are described under [Documentation quality](criteria.qmd#doc
 
 Create an account on the Methods Hub or log in to your existing account.
 
-## Submit! 
+## All set? Submit! 
 
 Go to *Submit* → [TODO: complete this step]{.todo}
 

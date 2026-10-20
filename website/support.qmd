@@ -4,11 +4,7 @@ title: "Support and Contact"
 
 Do you have open questions, or want to contact us for other Methods Hub–related reasons? The [Methods Hub team](https://www.gesis.org/en/services/processing-and-analyzing-data/analyzing-digital-behavioral-data/gesis-methods-hub) is happy to support you.
 
-::: {.callout-note appearance="simple" icon=false}
-## Contact
-
 Methods Hub Team<br>
 [methodshub@gesis.org](mailto:methodshub@gesis.org)
-:::
 
-Before writing, you may find your answer in the [FAQ](faq.qmd).
+Before writing, check if our [FAQ](faq.qmd) already has an answer for you!

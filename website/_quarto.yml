@@ -30,11 +30,12 @@ website:
       - index.qmd
       - scope.qmd
       - criteria.qmd
+      - tips.qmd 
       - checklist.qmd
       - faq.qmd
       - support.qmd
   page-footer:
-    left: "© GESIS – Leibniz Institute for the Social Sciences"
+    left: "[methodshub.gesis.org](https://methodshub.gesis.org)"
     right: "[methodshub@gesis.org](mailto:methodshub@gesis.org)"
 
 format:
