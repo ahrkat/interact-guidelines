@@ -1,5 +1,5 @@
 ---
-title: "Methods Hub Submission Guidelines"
+title: "Get started!"
 subtitle: "Learn about the Methods Hub and how to contribute methods and tutorials!"
 ---
 
