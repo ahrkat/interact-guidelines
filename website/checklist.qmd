@@ -5,24 +5,24 @@ subtitle: "Learn how to prepare your submission for the Methods Hub"
 
 Does your method or tutorial meet the [criteria](criteria.qmd), and are you ready to submit? Use this checklist as a guide through the submission process.
 
-## Check if your submission falls within our scope! 
+## 1. Check if your submission falls within our scope! 
 
-- [] Did you make explicit how it is related to social science?
-- [] Is it open... 
+- [ ] Did you make explicit how it is related to social science?
+- [ ] Is it open... 
 - 
 
-## Check how much you considered the readers of your submission
+## 2. Check how much you considered the readers of your submission!
 
 The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 
 
 Ideally,
-- [] Comment all processes and the code
-- [] Make your submission interactive
-- [] Check for spelligns and language
+- [ ] Comment all processes and the code
+- [ ] Make your submission interactive
+- [ ] Check for spelligns and language
 
 Check our tips!
 
-## Check if you included all necessary files! 
+## 3. Check if you included all necessary files! 
 
 All necessary files are described under [Documentation quality](criteria.qmd#documentation-quality).
 
@@ -38,27 +38,27 @@ All necessary files are described under [Documentation quality](criteria.qmd#doc
 
 : Files your repository should contain {.striped .hover}
 
-## Check how well your submission works in the interactive environments
+## 4. Check how well your submission works in the interactive environments!
 
 **Test it.** Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
 
-## Create an or log into your account on the Methods Hub 
+## 5. Create an or log into your account on the Methods Hub 
 
 Create an account on the Methods Hub or log in to your existing account.
 
-## All set? Submit! 
+## 6. All set? Submit! 
 
 Go to *Submit* → [TODO: complete this step]{.todo}
 
 and fill out the form.** [TODO: describe the form]{.todo}
 
-## Wait for our check
+## 7. Wait for our check
 
 We check whether your submission fulfills the Methods Hub criteria. We may get back to you with suggestions for improvement, or accept it for publication.
 
-## Potentially: Revise your submission 
+Potentially: Revise your submission 
 
-## Get published!
+## 8. Get published!
 ... 
 Once published, your method or tutorial gets its own page on the Methods Hub and a DOI that you can share and others can cite.
 
