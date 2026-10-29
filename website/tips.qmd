@@ -3,18 +3,53 @@ title: "Our recommendations"
 subtitle: "We gathered a few suggestions for you to make the most out of your submission"
 ---
 
-The target audience of your submissions are... How can you...
+Your submissions will mostly be read by social scientists who want to apply a method or use your tutorial to their own research questions. A good submission lets them understand *why* each step is taken, run the code themselves, and adapt it to their own data. Here is how you can get there.
 
+### Start with a clear entry point
+
+Open with a short overview so readers can quickly decide whether your submission fits their needs. Our templates give you good options for that:
+
+- **Learning goals:** what will readers be able to do afterwards?
+- **Prerequisites:** which skills, packages, or prior knowledge do they need?
+- **Use case:** what kind of research question and data is the method suited for?
+- **Estimated time** to work through the material.
 
 ### Add explanations!
 
-Comment your code
-...
+Code alone rarely explains itself. Comment generously, and use the text between code chunks to explain your reasoning:
 
-### Make it interactive! 
+- Explain *why* you make a decision (e.g., a preprocessing step or parameter choice), not only *what* the code does.
+- Describe what output readers should expect, so they can check whether things worked.
+- Define technical terms the first time you use them.
+- Mention alternatives and when they might be preferable.
 
-Tips for interactive env preparation.
+### Make it interactive!
 
-### Tip 3
+Readers learn most when they can run and modify your code. To make sure your submission works in our interactive environments:
 
-### Tip 4
+- **Declare all dependencies** with pinned versions (e.g., `requirements.txt`, `environment.yml`, or `renv.lock`).
+- **Include small example data** or load openly available data, and avoid files that only exist on your machine.
+- **Use relative paths** instead of absolute ones.
+- **Keep runtimes short.** Subsample large data or provide precomputed results for heavy steps.
+- **Avoid secrets and paid services.** If an API key is unavoidable, explain how to obtain one and offer a fallback, such as cached outputs.
+- **Test your submission in our test area:** use our interactive environment test area to check whether you submission works in the interactive environments
+
+### Make it reproducible
+
+- Set random seeds wherever randomness is involved.
+- Report software and package versions (e.g., `sessionInfo()` in R or `pip freeze` in Python).
+- Document where data comes from and under which license it can be reused.
+
+### Help readers adapt your submission
+
+- Clearly mark the parts readers need to change for their own data.
+- Point to further reading, related methods, or other Methods Hub submissions.
+- Make figures accessible: descriptive titles, alt text, and colour-blind-friendly palettes.
+
+### Be transparent about limitations
+
+No method fits every question. Help readers use yours responsibly:
+
+- When should the method *not* be used?
+- What are common pitfalls, validity concerns, or sources of bias?
+- How can results be validated or checked for robustness?
