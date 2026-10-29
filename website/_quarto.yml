@@ -20,11 +20,10 @@ website:
     style: docked
     search: false
     contents:
-      - index.qmd
       - scope.qmd
       - criteria.qmd
-      - tips.qmd 
       - checklist.qmd
+      - tips.qmd 
       - faq.qmd
       - support.qmd
   page-footer:

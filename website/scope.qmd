@@ -1,6 +1,8 @@
 ---
-title: "Aim and Scope"
+title: "About"
 ---
+
+*this page could  replace "about"*
 
 The Methods Hub aims to provide social scientists with high-quality, open-access, and easy-to-use computational resources for:
 
@@ -15,16 +17,23 @@ A special focus of the Methods Hub is on resources that work on [digital behavio
 
 With this, we want to promote the use of computational methods in the social sciences, lower technical barriers, and build a community-driven space for the field. We also offer [interactive execution environments](#interactive-env) so everyone can try methods and tutorials with a single click. For contributors, we provide a platform where they can reach their community. Every published item on the Methods Hub gets a DOI, making the resources citable.
 
-## Why should you share your expertise on the Methods Hub?
+We collect high-quality, open-access computational methods.
 
-[TODO: add arguments]
+We promote the use of computational methods in social science by lowering technical barriers.
 
-::: {.callout-tip}
-## Every published item gets a DOI
+We are building a community-driven hub of methods—by researchers, for researchers.
+
+We curate tools that support reproducible workflows.
+
+We provide visibility for your methods—consider submitting!
+
+We offer interactive execution environments so everyone can try the methods with the click of a button.
+
+
+## What you can publish and why should submit
+
 Everything published on the Methods Hub receives a DOI, which makes your method or tutorial citable!
-:::
 
-## What you can publish
 
 ### Methods {#methods}
 
@@ -42,7 +51,12 @@ Tutorials should focus on concrete tasks and offer code that helps researchers s
 
 **Example tutorials:** [TODO: add examples]
 
-## What makes us special: interactive environments {#interactive-env}
+You want to submit something? [Find our submission checklist](https://methodshub.gesis.org/submit).
+
+
+## What makes us special: 
+
+### interactive environments {#interactive-env}
 
 To ensure an exploratory user experience, we prefer methods and tutorials that include interactive elements, where users can modify one or more parameters and see how their changes affect the script's behavior. For this, we integrate so-called **interactive environments**.
 
@@ -50,3 +64,23 @@ To ensure an exploratory user experience, we prefer methods and tutorials that i
 
 
 Learn how to optimize your method or tutorial for a great [interactive user experience](https://methodshub.gesis.org/).
+
+### Taxonomy
+...
+
+
+### Making Methods Citable
+...
+
+### From the Community to the Community
+...
+
+
+## Our Team
+
+...
+
+
+## External Funding
+
+...

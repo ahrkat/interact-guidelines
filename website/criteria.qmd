@@ -67,8 +67,8 @@ These files **must** be in your Git repository before you submit.
 | Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd) or [`template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
 | Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) | Pin dependency versions |
 | postBuild | Both | Build process | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) | |
-| LICENSE | Both | Open license | [TODO: add example]{.todo} | |
-| CITATION.cff | Both | Citation | [TODO: add example]{.todo} | |
+| License | Both | Open license | [`LICENSE`](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) | |
+| Citation file | Both | Citation | [`CITATION.cff`](https://citation-file-format.github.io/) | |
 
 : Files your repository should contain {.striped .hover}
 
