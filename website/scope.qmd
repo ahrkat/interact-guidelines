@@ -34,28 +34,26 @@ We offer interactive execution environments so everyone can try the methods with
 
 ## What you can publish and why should submit to the Methods Hub
 
-Publishing on the Methods Hub makes your work visible to the computational social science community and easy for researchers to find, run, and adapt. Readers can try your method directly in an interactive environment without any setup, which lowers the barrier for researchers who are new to computational methods. Your work also becomes part of a curated collection that supports transparent and reproducible research.
-
-Further, everything published on the Methods Hub receives a DOI, which makes your method or tutorial citable! This way, the time you invest in documenting and sharing your code counts as a recognised scholarly contribution that others can reference in their work.
-
 The Methods Hub welcomes two kinds of contributions:
 
-A **method** on the Methods Hub is a computational procedure that can be employed to address social science problems. It is published in a code repository, encompassing scripts, packages, libraries, or notebooks, and follows our guidelines – most importantly, being reusable, free, and open source software (FOSS).
+A **method** on the Methods Hub is a computational procedure that can be employed to address social science problems. It is published in a code repository, encompassing scripts, packages, libraries, or notebooks, and follows our guidelines – most importantly, being reusable, free, and open source software (FOSS). For example, you can submit an R package for preprocessing social media data. For details on how to prepare a method, see the [Method Template](https://methodshub.gesis.org/).
 
-For example, you can submit an R package for preprocessing social media data. For details on how to prepare a method, see the [Method Template](https://methodshub.gesis.org/).
+Browse our methods: [Link](https://methodshub.gesis.org/)
 
-[TODO: add example methods]
+A **tutorial** on the Methods Hub is a written, recorded, and/or interactive introduction to a workflow, tool, or one or more methods. It is an instructional resource that can be used for self-guided learning. Tutorials should focus on concrete tasks and offer code that helps researchers solve them (e.g., how to preprocess data for topic modeling). They may apply methods featured on the Methods Hub, but can also refer to methods published elsewhere, and a tutorial can feature more than one method. For details on how to prepare a tutorial, see the [Tutorial Template](https://methodshub.gesis.org/).
 
-A **tutorial** on the Methods Hub is a written, recorded, and/or interactive introduction to a workflow, tool, or one or more methods. It is an instructional resource that can be used for self-guided learning.
+Browse our tutorials: [Link](https://methodshub.gesis.org/)
 
-Tutorials should focus on concrete tasks and offer code that helps researchers solve them (e.g., how to preprocess data for topic modeling). They may apply methods featured on the Methods Hub, but can also refer to methods published elsewhere, and a tutorial can feature more than one method. For details on how to prepare a tutorial, see the [Tutorial Template](https://methodshub.gesis.org/).
+**But why should you submit to the Methods Hub?**
+Publishing on the Methods Hub makes your work visible to the computational social science community and easy for researchers to find, run, and adapt. Readers can try your method directly in an interactive environment without any setup, which lowers the barrier for researchers who are new to computational methods. Your work also becomes part of a curated collection that supports transparent and reproducible research.
 
-[TODO: add example tutorials]
+Further, everything published on the Methods Hub receives a **DOI**, which makes your method or tutorial citable! This way, the time you invest in documenting and sharing your code counts as a recognised scholarly contribution that others can reference in their work.
 
 You want to submit something? [Take a look at our checklist](https://methodshub.gesis.org/submit).
 
-
 ## What makes us special: 
+
+There are many places to share code, but few are built specifically for social scientists. The following features set Methods Hub apart.
 
 ### Interactive environments {#interactive-env}
 

@@ -22,7 +22,6 @@ On the Methods Hub, we want to provide access to open methods and tutorials rele
 - [ ] For methods: the Git repository contains one and only one method.
 - [ ] The method or tutorial is [published under an open license](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project).
 
-**Quality** 
 
 ## 2. Check if you included all necessary files! 
 
@@ -32,7 +31,7 @@ The following files **must** be in your Git repository before you submit. Below 
 
 **Files necessary for Binder environment.** Your repository contains all files needed to set up a [Binder environment](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html#managing-languages) for the Methods Hub: a file specifying the requirements and a postBuild file that installs Quarto. These configuration files can be at the root level or in a directory named `.binder` or `binder`. The Binder environment needs to build without errors.
 
-**Other.** Further, you need to add a LICENSE file with an open license and a CITATION.cff file at the root level. Without a license, others are not legally allowed to reuse your code, and a citation file makes sure your work is properly credited when they do.
+**Other.** Further, you need to add a `LICENSE` file with an open license and a `CITATION.cff` file at the root level. Without a license, others are not legally allowed to reuse your code, and a citation file makes sure your work is properly credited when they do.
 
 #### Checklist of required files and templates
 | File | Resource | Purpose | Template | Notes |
