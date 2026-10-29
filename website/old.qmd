@@ -1,0 +1,40 @@
+---
+title: "Get started!"
+subtitle: "Learn about the Methods Hub and how to contribute methods and tutorials!"
+---
+
+Are you interested in contributing a method or tutorial to the [Methods Hub](https://methodshub.gesis.org)? These pages answer the following questions:
+
+- What are the [aim and scope](scope.qmd) of the Methods Hub?
+- What qualifies as a [method](scope.qmd#methods) and what as a [tutorial](scope.qmd#tutorials)?
+- What are the Methods Hub's [submission criteria](criteria.qmd)?
+- Ready for submission? Follow the [submission checklist](checklist.qmd).
+- Still unsure? Read the [FAQ](faq.qmd).
+- Where and how can you get [support](support.qmd)?
+
+## What is the Methods Hub?
+
+We collect high-quality, open-access computational methods.
+We promote the use of computational methods in social science by lowering technical barriers.
+We are building a community-driven hub of methods—by researchers, for researchers.
+We curate tools that support reproducible workflows.
+We provide visibility for your methods—consider submitting!
+We offer interactive execution environments so everyone can try the methods with the click of a button.
+
+The Methods Hub covers the entire social science research workflow—from data collection and preprocessing to analysis and validation. We also feature tools for data management and reproducibility, especially in the context of digital behavioral data. All contributions follow open science principles: open-source programming languages, open licenses, and open code.
+
+## Our features
+
+What makes the Methods Hub special?
+
+### Taxonomy
+...
+
+### Interactive Environements
+...
+
+### Making Methods Citable
+...
+
+### From the Community to the Community
+...

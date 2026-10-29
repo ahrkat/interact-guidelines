@@ -44,7 +44,6 @@ The following files **must** be in your Git repository before you submit. Below 
 | Citation file | Both | Citation | [`CITATION.cff`](https://citation-file-format.github.io/) | add at the root level |
 
 
-
 ## 3. Check how much you considered the readers of your submission!
 
 The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 

@@ -10,8 +10,8 @@ Your submissions will mostly be read by social scientists who want to apply a me
 Open with a short overview so readers can quickly decide whether your submission fits their needs. Our templates give you good options for that:
 
 - **Learning goals:** what will readers be able to do afterwards?
-- **Prerequisites:** which skills, packages, or prior knowledge do they need?
-- **Use case:** what kind of research question and data is the method suited for?
+- **Target audience and prerequisites:** which skills, packages, or prior knowledge do they need?
+- **Use case:** what kind of social science research question and data is the method suited for?
 - **Estimated time** to work through the material.
 
 ### Add explanations!

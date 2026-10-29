@@ -20,7 +20,7 @@ website:
     style: docked
     search: false
     contents:
-      - about.qmd
+      - index.qmd
       - checklist.qmd
       - tips.qmd 
       - faq.qmd
