@@ -96,5 +96,5 @@ Once published, your method or tutorial gets its own page on the Methods Hub and
 
 
 ::: {.callout-tip}
-Questions during the process? See the [FAQ](faq.qmd) or [contact us](support.qmd).
+Questions during the process? See the [FAQ](faq.qmd) or [contact us](mailto:methodshub@gesis.org).
 :::

@@ -20,11 +20,10 @@ website:
     style: docked
     search: false
     contents:
-      - scope.qmd
+      - about.qmd
       - checklist.qmd
       - tips.qmd 
       - faq.qmd
-      - support.qmd
   page-footer:
     left: "[methodshub.gesis.org](https://methodshub.gesis.org)"
     right: "[methodshub@gesis.org](mailto:methodshub@gesis.org)"
