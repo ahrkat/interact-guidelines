@@ -48,21 +48,19 @@ The following files **must** be in your Git repository before you submit. Below 
 
 The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 
 
-Ideally,
-
-**Reproducibility.** All examples can be reproduced with reasonable accuracy using only publicly available resources.
+Ideally, ...
 
 - [ ] Comment all processes and the code
 - [ ] Make your submission interactive. Check whether it works: [interactive test area](criteria.qmd#documentation-quality)
 - [ ] Check for spelligns and language
 - [ ] The method code contains documentation (comments) for parameters and decisions, so that others can adjust the method.
 - [ ] The method code is structured into modules (where needed).
+- [ ] All examples can be reproduced with reasonable accuracy using only publicly available resources.
 
-The code quality criteria can be skipped for methods with a paper published in one of the following trusted third-party review venues:
-
-- [Journal of Open Source Software](https://joss.theoj.org/)
-- [The R Journal](https://journal.r-project.org/)
-- [rOpenSci](https://ropensci.org/)
+- [ ] The code quality criteria can be skipped for methods with a paper published in one of the following trusted third-party review venues:
+    - [Journal of Open Source Software](https://joss.theoj.org/)
+    - [The R Journal](https://journal.r-project.org/)
+    - [rOpenSci](https://ropensci.org/)
 
 You can suggest further venues by email to the [Methods Hub team](mailto:methodshub@gesis.org).
 
