@@ -34,19 +34,19 @@ Readers learn most when they can run and modify your code. To make sure your sub
 - **Avoid secrets and paid services.** If an API key is unavoidable, explain how to obtain one and offer a fallback, such as cached outputs.
 - **Test your submission in our test area:** use our interactive environment test area to check whether you submission works in the interactive environments
 
-### Make it reproducible
+### Make it reproducible!
 
 - Set random seeds wherever randomness is involved.
 - Report software and package versions (e.g., `sessionInfo()` in R or `pip freeze` in Python).
 - Document where data comes from and under which license it can be reused.
 
-### Help readers adapt your submission
+### Help readers adapt your submission!
 
 - Clearly mark the parts readers need to change for their own data.
 - Point to further reading, related methods, or other Methods Hub submissions.
 - Make figures accessible: descriptive titles, alt text, and colour-blind-friendly palettes.
 
-### Be transparent about limitations
+### Be transparent about limitations!
 
 No method fits every question. Help readers use yours responsibly:
 

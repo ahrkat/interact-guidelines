@@ -3,7 +3,7 @@ title: "Prepare your Submission"
 subtitle: "Learn how to prepare your submission for the Methods Hub"
 ---
 
-Does your method or tutorial meet the [criteria](criteria.qmd), and are you ready to submit? Use this checklist as a guide through the submission process.
+You have an interesting method or tutorial you want to submit to the Methods Hub? Follow this guiding checklist to see what you need for your submission. 
 
 ## 1. Check if your submission meets our criteria! 
 
@@ -33,7 +33,7 @@ The following files **must** be in your Git repository before you submit. Below 
 
 **Other.** Further, you need to add a `LICENSE` file with an open license and a `CITATION.cff` file at the root level. Without a license, others are not legally allowed to reuse your code, and a citation file makes sure your work is properly credited when they do.
 
-#### Checklist of required files and templates
+##### Checklist of required files and templates
 | File | Resource | Purpose | Template | Notes |
 |---|---|---|---|---|
 | README | Method | Contains content | [README template](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) | |
@@ -74,11 +74,11 @@ Want some more ideas? Check [our recommendations](criteria.qmd#documentation-qua
 
 Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
 
-## 5. Create an or log into your account on the Methods Hub 
+## 5. Register or log in to your account on the Methods Hub! 
 
 Create an account on the Methods Hub or log in to your existing account.
 
-## 6. All set? Submit! 
+## 6. All set? Let's submit! 
 
 Go to *Submit* → [TODO: complete this step]{.todo}
 
