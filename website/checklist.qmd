@@ -24,11 +24,35 @@ On the Methods Hub, we want to provide access to open methods and tutorials rele
 
 **Quality** 
 
-## 2. Check how much you considered the readers of your submission!
+## 2. Check if you included all necessary files! 
+
+The following files **must** be in your Git repository before you submit. Below are links to templates you should use. 
+
+**The content file.** Your repository needs a file containing the content that is rendered on the Methods Hub page. It should follow our template structure.
+
+**Files necessary for Binder environment.** Your repository contains all files needed to set up a [Binder environment](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html#managing-languages) for the Methods Hub: a file specifying the requirements and a postBuild file that installs Quarto. These configuration files can be at the root level or in a directory named `.binder` or `binder`. The Binder environment needs to build without errors.
+
+**Other.** Further, you need to add a LICENSE file with an open license and a CITATION.cff file at the root level. Without a license, others are not legally allowed to reuse your code, and a citation file makes sure your work is properly credited when they do.
+
+#### Checklist of required files and templates
+| File | Resource | Purpose | Template | Notes |
+|---|---|---|---|---|
+| README | Method | Contains content | [README template](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) | |
+| Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd) or [`template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
+| Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) | Pin dependency versions; root level or in a directory named `.binder` or `binder  |
+| postBuild | Both | Build process that installs Quarto | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) |root level or in a directory named `.binder` or `binder |
+| License | Both | Open license | [`LICENSE`](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) | add at the root level |
+| Citation file | Both | Citation | [`CITATION.cff`](https://citation-file-format.github.io/) | add at the root level |
+
+
+
+## 3. Check how much you considered the readers of your submission!
 
 The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 
 
 Ideally,
+
+**Reproducibility.** All examples can be reproduced with reasonable accuracy using only publicly available resources.
 
 - [ ] Comment all processes and the code
 - [ ] Make your submission interactive. Check whether it works: [interactive test area](criteria.qmd#documentation-quality)
@@ -47,48 +71,9 @@ You can suggest further venues by email to the [Methods Hub team](mailto:methods
 Want some more ideas? Check [our recommendations](criteria.qmd#documentation-quality)
 
 
-## 3. Check if you included all necessary files! 
-
-All necessary files are described under [Documentation quality](criteria.qmd#documentation-quality).
-
-These files **must** be in your Git repository before you submit.
-
-**The content file.** Your repository needs a file containing the content that is rendered on the Methods Hub page. It should follow the structure of our templates.
-
-- **Methods:** a [Methods Hub–friendly README](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) (can be `README.md` or another file).
-- **Tutorials:** the tutorial itself, in one of the accepted formats:
-  - [Quarto](https://quarto.org/) (`.qmd`) – see the template [`tutorial/template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd)
-  - [Jupyter Notebook](https://nbformat.readthedocs.io/en/latest/index.html) (`.ipynb`) – see the template [`tutorial/template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb). Jupyter Notebooks are limited to a single programming language.
-  - [R Markdown](https://rmarkdown.rstudio.com/) (`.Rmd`) – if possible, port it to Quarto.
-  - [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (`.md`)
-
-**A Binder environment.** Your repository contains the files needed to set up a [Binder environment](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html#managing-languages) for the Methods Hub. These configuration files can be at the root level or in a directory named `.binder` or `binder`.
-
-- A configuration file for installing all requirements, e.g., [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt) for Python, [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R) for R, or [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) for conda and other languages. We recommend pinning dependency versions.
-- The [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) file that installs Quarto.
-- The Binder environment builds without errors.
-
-**License and citation.**
-
-- A `LICENSE` file with an [open license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) at the root level.
-- A [`CITATION.cff`](https://citation-file-format.github.io/) file at the root level.
-
-**Reproducibility.** All examples can be reproduced with reasonable accuracy using only publicly available resources.
-
-
-| File | Resource | Purpose | Template | Notes |
-|---|---|---|---|---|
-| README | Method | Contains content | [README template](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) | |
-| Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd) or [`template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
-| Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) | Pin dependency versions |
-| postBuild | Both | Build process | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) | |
-| License | Both | Open license | [`LICENSE`](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) | |
-| Citation file | Both | Citation | [`CITATION.cff`](https://citation-file-format.github.io/) | |
-: Files your repository should contain {.striped .hover}
-
 ## 4. Check how well your submission works in the interactive environments!
 
-**Test it.** Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
+Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
 
 ## 5. Create an or log into your account on the Methods Hub 
 

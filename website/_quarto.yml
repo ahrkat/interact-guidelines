@@ -21,7 +21,6 @@ website:
     search: false
     contents:
       - scope.qmd
-      - criteria.qmd
       - checklist.qmd
       - tips.qmd 
       - faq.qmd
