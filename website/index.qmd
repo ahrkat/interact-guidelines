@@ -44,41 +44,6 @@ A **tutorial** on the Methods Hub is a written, recorded, and/or interactive int
 
 Browse our tutorials: [Link](https://methodshub.gesis.org/)
 
-
-## You want to use the Methods Hub?
-
-The Methods Hub is a curated collection of open computational methods and tutorials for the social sciences, from collecting and preprocessing data to analysis, visualization, and validation. Every resource is free, openly licensed, and reviewed before it is published.
-
-- **Find what you need.** Browse methods and tutorials by research task, for example, preprocessing text, analyzing social media data, or validating a measurement.
-- **Try it without any setup.** Run the code directly in your browser in an interactive environment. You don't need to install anything, so you can explore a method before you commit to it. Use the button 'try out'!
-- **Learn step by step.** Tutorials walk you through concrete research tasks with working code, which makes them useful whether you're new to computational methods or extending your skills.
-- **Adapt and cite.** Take the code into your own project and cite the resource via its DOI.
-
-[Explore the Methods Hub](https://methodshub.gesis.org){.btn .btn-primary}
-
-## You want to contribute to the Methods Hub? 
-
-Publishing on the Methods Hub makes your work visible to the computational social science community and easy for researchers to find, run, and adapt.
-
-- **Reach new users.** Readers can try your method directly in an interactive environment, which lowers the barrier for researchers who are new to computational methods.
-- **Get credit.** Everything published on the Methods Hub receives a **DOI**, so the time you invest in documenting and sharing your code counts as a citable scholarly contribution.
-- **Strengthen open science.** Your work becomes part of a curated collection that supports transparent and reproducible research.
-
-You can contribute a **method** (e.g., an R or Python package or script) or a **tutorial** that teaches a concrete task, including tutorials about other people's methods.
-
-[See the submission checklist](https://methodshub.gesis.org/submit){.btn .btn-primary}
-
-## You want to support the Methods Hub? {#stakeholders}
-
-Lecturers, journal editors, research groups, and other multipliers play a key role in making open computational methods part of everyday research practice.
-
-- **Lecturers and trainers** can use Methods Hub tutorials in courses and workshops. Because everything runs in the browser, students can start working with the code right away, without a lengthy installation.
-- **Editors and reviewers** can point authors to the Methods Hub as a place to publish the code behind their papers in a reusable, citable form.
-- **Research groups and institutes** can encourage their members to share methods and tutorials, making their work more visible and reusable.
-- **Everyone** can help by sharing the Methods Hub with colleagues and students, and by telling us what methods or tutorials are still missing.
-
-Interested in working with us? Get in touch at [methodshub@gesis.org](mailto:methodshub@gesis.org).
-
 ## What makes us special: 
 
 There are many places to share code, but few are built specifically for social scientists. The following features set Methods Hub apart.
@@ -104,6 +69,41 @@ Developing and documenting a method takes considerable time, but software and tu
 ### From the Community to the Community
 
 The Methods Hub is built by and for the computational social science community. Contributions come from researchers who have developed, adapted, or taught a method and want others to benefit from it. In turn, users can build on these contributions, adapt them to new contexts, and share their own work. Our goal is a growing, curated collection that reflects the diversity of methods in the field and lowers the barrier to using them well.
+
+
+## You want to use the Methods Hub?
+
+The Methods Hub is a curated collection of open computational methods and tutorials for the social sciences, from collecting and preprocessing data to analysis, visualization, and validation. Every resource is free, openly licensed, and reviewed before it is published.
+
+- **Find what you need.** Browse methods and tutorials by research task, for example, preprocessing text, analyzing social media data, or validating a measurement.
+- **Try it without any setup.** Run the code directly in your browser in an interactive environment. You don't need to install anything, so you can explore a method before you commit to it. Use the button 'try out'!
+- **Learn step by step.** Tutorials walk you through concrete research tasks with working code, which makes them useful whether you're new to computational methods or extending your skills.
+- **Adapt and cite.** Take the code into your own project and cite the resource via its DOI.
+
+[Explore the Methods Hub](https://methodshub.gesis.org){.btn .btn-primary}
+
+## You want to contribute to the Methods Hub? 
+
+Publishing on the Methods Hub makes your work visible to the computational social science community and easy for researchers to find, run, and adapt.
+
+- **Reach new users.** Readers can try your method directly in an interactive environment, which lowers the barrier for researchers who are new to computational methods.
+- **Get credit.** Everything published on the Methods Hub receives a **DOI**, so the time you invest in documenting and sharing your code counts as a citable scholarly contribution.
+- **Strengthen open science.** Your work becomes part of a curated collection that supports transparent and reproducible research.
+
+[Get ready for submission](https://methodshub.gesis.org/submit){.btn .btn-primary}
+
+## You want to support the Methods Hub? {#stakeholders}
+
+Lecturers, journal editors, research groups, and other multipliers play a key role in making open computational methods part of everyday research practice.
+
+- **Lecturers and trainers** can use Methods Hub tutorials in courses and workshops. Because everything runs in the browser, students can start working with the code right away, without a lengthy installation.
+- **Editors and reviewers** can point authors to the Methods Hub as a place to publish the code behind their papers in a reusable, citable form.
+- **Research groups and institutes** can encourage their members to share methods and tutorials, making their work more visible and reusable.
+- **Everyone** can help by sharing the Methods Hub with colleagues and students, and by telling us what methods or tutorials are still missing.
+
+You want to reach out to us?
+
+[Get in touch](mailto:methodshub@gesis.org).{.btn .btn-primary}
 
 ## Our Team
 
