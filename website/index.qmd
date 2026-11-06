@@ -103,7 +103,7 @@ Lecturers, journal editors, research groups, and other multipliers play a key ro
 
 You want to reach out to us?
 
-[Get in touch](mailto:methodshub@gesis.org).{.btn .btn-primary}
+[Get in touch](mailto:methodshub@gesis.org){.btn .btn-primary}
 
 ## Our Team
 
