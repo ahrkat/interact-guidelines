@@ -32,7 +32,7 @@ We provide visibility for your methods—consider submitting!
 We offer interactive execution environments so everyone can try the methods with the click of a button.
 
 
-## What type of content does the Methods Hub feature
+## What type of content does the Methods Hub provide
 
 The Methods Hub curates two types of content:
 
@@ -44,32 +44,7 @@ A **tutorial** on the Methods Hub is a written, recorded, and/or interactive int
 
 Browse our tutorials: [Link](https://methodshub.gesis.org/)
 
-## What makes us special: 
-
-There are many places to share code, but few are built specifically for social scientists. The following features set Methods Hub apart.
-
-### Interactive environments {#interactive-env}
-
-To ensure an exploratory user experience, we prefer methods and tutorials that include interactive elements, where users can modify one or more parameters and see how their changes affect the script's behavior. For this, we integrate so-called **interactive environments**.
-
-An interactive environment is a ready-to-use computing session that opens directly in the browser. Users don't need to install software, set up packages, or download data. With one click, they can run the code, change parameters, and explore the results themselves. This makes methods accessible to researchers who are new to programming and lets experienced users quickly test whether a method fits their own research question.
-
-For contributors, this means that your submission should run from top to bottom in a fresh environment. All dependencies need to be declared, data needs to be included or openly accessible, and runtimes should stay reasonably short. We have more details on this in our [submission checklist](https://methodshub.gesis.org/)
-
-We also gathered some tips to help you optimize your method or tutorial for a great [interactive user experience](https://methodshub.gesis.org/).
-
-### Taxonomy
-
-To help users find what they need, every submission is classified using a shared [taxonomy](https://methodshub.gesis.org/submit/taxonomy/). Contributions are further tagged by keywords and programming language, so that users can browse the Methods Hub by what they want to do rather than by tool names they may not yet know. When you submit, you assign your contribution to the relevant categories, and our team reviews the classification.
-
-### Making Methods Citable
-
-Developing and documenting a method takes considerable time, but software and tutorials often go unrecognised in academic careers. The Methods Hub addresses this: every published method and tutorial receives a DOI, together with citation information drawn from your `CITATION.cff` file. Others can cite your work just like a journal article, and your contribution becomes visible as a scholarly output in its own right.
-
-### From the Community to the Community
-
-The Methods Hub is built by and for the computational social science community. Contributions come from researchers who have developed, adapted, or taught a method and want others to benefit from it. In turn, users can build on these contributions, adapt them to new contexts, and share their own work. Our goal is a growing, curated collection that reflects the diversity of methods in the field and lowers the barrier to using them well.
-
+*the following three could be boxes as we have on the landing page right now*
 
 ## You want to use the Methods Hub?
 
@@ -104,6 +79,54 @@ Lecturers, journal editors, research groups, and other multipliers play a key ro
 You want to reach out to us?
 
 [Get in touch](mailto:methodshub@gesis.org){.btn .btn-primary}
+
+## What makes us special: 
+
+There are many places to share code, but few are built specifically for social scientists. The following features set Methods Hub apart.
+
+### From the community, for the community {#community}
+
+The Methods Hub is built by and for the computational social science community. Contributions come from researchers who have developed, adapted, or taught a method and want others to benefit from it. Our goal is a growing, curated collection that reflects the diversity of methods in the field and lowers the barrier to using them well.
+
+Everyone can be part of this. **Users** build on existing contributions, adapt them to new contexts, and often go on to share their own work. **Lecturers** can turn their teaching materials into tutorials, including tutorials on other people's methods. **Stakeholders** help by spreading the word and encouraging colleagues, students, and authors to share their methods openly. **Contributors** keep the collection growing.
+
+### Interactive environments {#interactive-env}
+
+Many methods and tutorials on the Methods Hub come with an **interactive environment**: a ready-to-use computing session that opens directly in your browser. There is no software to install, no packages to set up, and no data to download. With one click, you can run the code, change parameters, and see right away how your changes affect the results.
+
+**For users**, this means you can try a method before you invest time in it. If you're new to programming, you can explore working code step by step, safely and without breaking anything. If you're an experienced user, you can quickly check whether a method fits your own research question, then take the code into your own project.
+
+**For lecturers and other multipliers**, interactive environments remove the most common hurdle in teaching computational methods: installation. Students and workshop participants all start from the same working setup, regardless of their operating system or prior experience, so session time goes into learning methods rather than fixing software issues.
+
+**For contributors**, interactive environments make your work far more accessible, because people can try it within seconds instead of setting it up first. To make this possible, your submission needs to run from top to bottom in a fresh environment:
+
+- all dependencies are declared,
+- data is included or openly accessible, and
+- runtimes stay reasonably short.
+
+Our [submission checklist](https://methodshub.gesis.org/) has the details, and you can check your resource in the [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) before submitting. We have also gathered [tips for a great interactive user experience](https://methodshub.gesis.org/).
+
+### Taxonomy {#taxonomy}
+
+To help you find what you need, every method and tutorial is classified using a shared [taxonomy](https://methodshub.gesis.org/submit/taxonomy/) of research tasks, such as data collection, preprocessing, analysis, or validation. Contributions are also tagged with keywords and programming language. This means you can browse the Methods Hub by what you want to do, rather than by tool names you may not know yet.
+
+**For users**, the taxonomy is a way into the field: start from your research task and discover which methods exist for it, including ones you might not have found otherwise.
+
+**For lecturers and other multipliers**, it offers a ready-made structure for pointing students and colleagues to suitable resources, for example all tutorials on a given task.
+
+**For contributors**, it makes your work findable for exactly the people who need it. When you submit, you assign your contribution to the relevant categories, and our team reviews the classification.
+
+### Making methods citable {#citable}
+
+Developing and documenting a method takes considerable time, but software and tutorials often go unrecognised in academic careers. The Methods Hub addresses this: every published method and tutorial receives a **DOI**, together with citation information drawn from the contribution's `CITATION.cff` file.
+
+**For users**, this makes it easy to give proper credit. You can cite a method or tutorial just like a journal article, and the DOI ensures that others can find the exact resource you used, which supports the transparency of your own research.
+
+**For editors, institutions, and other stakeholders**, DOIs make software and teaching materials visible as scholarly outputs in their own right, which can then be referenced in publications, reports, and evaluations.
+
+**For contributors**, the time you invest in sharing your code counts. Your method or tutorial becomes a citable publication, and every citation shows its impact.
+
+Have an idea, or missing a method for your research? [Get in touch](mailto:methodshub@gesis.org). We're happy to hear from you.
 
 ## Our Team
 
