@@ -37,7 +37,7 @@ The following files **must** be in your Git repository before you submit. Below 
 ##### Checklist of required files and templates
 | File | Resource | Purpose | Template | Notes |
 |---|---|---|---|---|
-| README | Method | Contains content | [README template](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/method/template.md) | |
+| README | Method | Contains content | [`README template`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/method/template.md) | |
 | Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/tutorial/template.qmd) or [`template.ipynb`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
 | Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/binder-examples/conda/environment.yml) | Pin dependency versions; root level or in a directory named `.binder` or `binder` |
 | postBuild | Both | Build process that installs Quarto | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) |root level or in a directory named `.binder` or `binder` |
