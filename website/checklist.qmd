@@ -1,5 +1,5 @@
 ---
-title: "Prepare your Submission"
+title: "Prepare your submission"
 subtitle: "Learn how to prepare your submission for the Methods Hub"
 ---
 
@@ -27,7 +27,7 @@ On the Methods Hub, we want to provide access to open methods and tutorials rele
 
 The following files **must** be in your Git repository before you submit. Below are links to templates you should use. 
 
-**The content file.** Your repository needs a file containing the content that is rendered on the Methods Hub page. It should follow our template structure.
+**The content file.** Your repository needs a file containing the content that is rendered on the Methods Hub page. It should follow our template structure. We have different templates for methods and tutorials (check below). 
 
 **Files necessary for Binder environment.** Your repository contains all files needed to set up a [Binder environment](https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html#managing-languages) for the Methods Hub: a file specifying the requirements and a postBuild file that installs Quarto. These configuration files can be at the root level or in a directory named `.binder` or `binder`. The Binder environment needs to build without errors.
 
@@ -46,21 +46,25 @@ The following files **must** be in your Git repository before you submit. Below 
 
 ## 3. Check how much you considered the readers of your submission!
 
-The user of your method or tutorial is likely to be less qualified than you are. After all, you are publishing something novel... 
+The people using your method or tutorial will often be less familiar with it than you are. After all, you know the method inside out, while they may be seeing it for the first time. The easier it is to understand, run, and adapt, the more people will use it, and the more it will be cited.
 
-Ideally, ...
+Before submitting, check that:
 
-- [ ] Comment all processes and the code
-- [ ] Make your submission interactive. Check whether it works: [interactive test area](criteria.qmd#documentation-quality)
-- [ ] Check for spelligns and language
-- [ ] The method code contains documentation (comments) for parameters and decisions, so that others can adjust the method.
-- [ ] The method code is structured into modules (where needed).
-- [ ] All examples can be reproduced with reasonable accuracy using only publicly available resources.
+**Readers can follow it**
 
-- [ ] The code quality criteria can be skipped for methods with a paper published in one of the following trusted third-party review venues:
-    - [Journal of Open Source Software](https://joss.theoj.org/)
-    - [The R Journal](https://journal.r-project.org/)
-    - [rOpenSci](https://ropensci.org/)
+- [ ] The code is commented, including the reasons behind key decisions, not just what each step does.
+- [ ] Parameters are documented, so others know what they can change and what effect it has.
+- [ ] Longer code is structured into modules or clearly separated sections.
+- [ ] Text and comments are proofread for spelling, grammar, and clarity.
+
+**Readers can run it in our interactive environments**
+
+- [ ] Your submission runs in an interactive environment. Check it in the [Interactive Test Area](https://methodshub.gesis.org/submit/test-area).
+- [ ] Set random seeds wherever randomness is involved.
+- [ ] Report software and package versions (e.g., `sessionInfo()` in R or `pip freeze` in Python).
+- [ ] Document where data comes from and under which license it can be reused.
+
+Want more ideas? See our [documentation recommendations](criteria.qmd#documentation-quality).
 
 You can suggest further venues by email to the [Methods Hub team](mailto:methodshub@gesis.org).
 
