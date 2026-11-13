@@ -4,37 +4,21 @@ title: "About"
 
 *this page could  replace "about"*
 
-The Methods Hub aims to provide social scientists with high-quality, open-access, and easy-to-use computational resources for:
-
-- **data collection**
-- **preprocessing**
-- **data analysis**
-- **data visualization**
-- **validation and evaluation**
-- **computational workflows**
-
-A special focus of the Methods Hub is on resources that work on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data), but other resources are also welcome.
+The Methods Hub aims to provide social scientists with high-quality, open-access, and easy-to-use **computational resources** for **data collection**, **preprocessing**, **data analysis**, **data visualization**, **validation and evaluation**, **computational workflows**. A special focus of the Methods Hub is on resources that work on [digital behavioral data](https://www.gesis.org/en/institute/about-us/digital-behavioral-data).
 
 With this, we want to promote the use of computational methods in the social sciences, lower technical barriers, and build a community-driven space for the field. We also offer [interactive execution environments](#interactive-env) so everyone can try methods and tutorials with a single click. For contributors, we provide a platform where they can reach their community. Every published item on the Methods Hub gets a DOI, making the resources citable.
 
 ## Our Mission
 
-We collect high-quality, open-access computational methods.
-
-We promote the use of computational methods in social science by lowering technical barriers.
-
-We are building a community-driven hub of methods—by researchers, for researchers.
-
-We curate tools that support reproducible workflows.
-
-We provide visibility for your methods—consider submitting!
-
-We offer interactive execution environments so everyone can try the methods with the click of a button.
+- We collect high-quality, open-access computational methods.
+- We promote the use of computational methods in social science by lowering technical barriers.
+- We are building a community-driven hub of methods—by researchers, for researchers.
+- We curate tools that support reproducible workflows.
+- We provide visibility for your methods—consider submitting!
+- We offer interactive execution environments so everyone can try the methods with the click of a button.
 
 
-## What type of content does the Methods Hub provide
-
-The Methods Hub curates two types of content:
+## Two types of content provided by the Methods Hub
 
 A **method** on the Methods Hub is a computational procedure that can be employed to address social science problems. It is published in a code repository, encompassing scripts, packages, libraries, or notebooks, and follows our guidelines – most importantly, being reusable, free, and open source software (FOSS). For example, you can submit an R package for preprocessing social media data. For details on how to prepare a method, see the [Method Template](https://methodshub.gesis.org/).
 
@@ -88,7 +72,7 @@ There are many places to share code, but few are built specifically for social s
 
 The Methods Hub is built by and for the computational social science community. Contributions come from researchers who have developed, adapted, or taught a method and want others to benefit from it. Our goal is a growing, curated collection that reflects the diversity of methods in the field and lowers the barrier to using them well.
 
-Everyone can be part of this. **Users** build on existing contributions, adapt them to new contexts, and often go on to share their own work. **Lecturers** can turn their teaching materials into tutorials, including tutorials on other people's methods. **Stakeholders** help by spreading the word and encouraging colleagues, students, and authors to share their methods openly. **Contributors** keep the collection growing.
+Everyone can be part of this. **Users** build on existing contributions, adapt them to new contexts, and often go on to share their own work. **Lecturers** can turn their teaching materials into tutorials, including tutorials on other people's methods. **Stakeholders** help by spreading the word and encouraging colleagues, students, and authors to share their methods openly. **Contributors** keep the collection growing and reach their target audience.
 
 ### Interactive environments {#interactive-env}
 
