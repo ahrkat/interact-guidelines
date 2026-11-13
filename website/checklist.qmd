@@ -36,9 +36,9 @@ The following files **must** be in your Git repository before you submit. Below 
 ##### Checklist of required files and templates
 | File | Resource | Purpose | Template | Notes |
 |---|---|---|---|---|
-| README | Method | Contains content | [README template](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/method/template.md?plain=1) | |
-| Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.qmd) or [`template.ipynb`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
-| Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/YOUR-ORG/YOUR-REPO/blob/main/binder-examples/conda/environment.yml) | Pin dependency versions; root level or in a directory named `.binder` or `binder` |
+| README | Method | Contains content | [README template](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/method/template.md) | |
+| Tutorial file | Tutorial | Contains content | [`template.qmd`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/tutorial/template.qmd) or [`template.ipynb`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/tutorial/template.ipynb) | Also possible: R Markdown, Pandoc Markdown |
+| Requirements | Both | Reproducibility | Python: [`requirements.txt`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/binder-examples/python/requirements.txt); R: [`install.R`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/binder-examples/r/install.R); conda: [`environment.yml`](https://github.com/GESIS-Methods-Hub/guidelines/blob/v0/binder-examples/conda/environment.yml) | Pin dependency versions; root level or in a directory named `.binder` or `binder` |
 | postBuild | Both | Build process that installs Quarto | [`postBuild`](https://methodshub.gesis.org/snippet/postBuild) |root level or in a directory named `.binder` or `binder` |
 | License | Both | Open license | [`LICENSE`](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) | add at the root level |
 | Citation file | Both | Citation | [`CITATION.cff`](https://citation-file-format.github.io/) | add at the root level |
@@ -52,28 +52,35 @@ Before submitting, check that:
 
 **Readers can follow it**
 
+- [ ] Readers know what to expect from the Method or Tutorial. Make use of our template sections to provide a clear entry point.
 - [ ] The code is commented, including the reasons behind key decisions, not just what each step does.
 - [ ] Parameters are documented, so others know what they can change and what effect it has.
 - [ ] Longer code is structured into modules or clearly separated sections.
 - [ ] Text and comments are proofread for spelling, grammar, and clarity.
+- [ ] Define technical terms the first time you use them to make clear that concepts are understood beyond disciplines.
+- [ ] Clearly mark the parts readers need to change for their own data.
+- [ ] Point to further reading, related methods, or other Methods Hub submissions.
+- [ ] Make figures accessible: descriptive titles, alt text, and accessible color palettes.
+- [ ] Be open about the limitations: when should the method not be used? What are common pitfalls, validity concerns, or sources of bias?
+
 
 **Readers can run it in our interactive environments**
 
 - [ ] Your submission runs in an interactive environment. Check it in the [Interactive Test Area](https://methodshub.gesis.org/submit/test-area).
 - [ ] Set random seeds wherever randomness is involved.
 - [ ] Report software and package versions (e.g., `sessionInfo()` in R or `pip freeze` in Python).
+- [ ] Include small example data or use openly available data to showcase your Method or Tutorial.
 - [ ] Document where data comes from and under which license it can be reused.
-
-Want more ideas? See our [documentation recommendations](criteria.qmd#documentation-quality).
-
-You can suggest further venues by email to the [Methods Hub team](mailto:methodshub@gesis.org).
-
-Want some more ideas? Check [our recommendations](criteria.qmd#documentation-quality)
+- [ ] Keep runtimes short. Subsample large data or provide precomputed results for heavy steps.
+- [ ] Use only relative paths.
+- [ ] If an API key is unavoidable, explain how to obtain one and offer a fallback, such as cached outputs.
 
 
 ## 4. Check how well your submission works in the interactive environments!
 
 Use our [Interactive Test Area](https://methodshub.gesis.org/submit/test-area) to check whether your resource works in the different interactive environments on our platform.
+
+ADD: what if method/ tutorial is not meant to be interactive ...
 
 ## 5. Register or log in to your account on the Methods Hub! 
 
@@ -81,18 +88,14 @@ Create an account on the Methods Hub or log in to your existing account.
 
 ## 6. All set? Let's submit! 
 
-Go to *Submit* → [TODO: complete this step]{.todo}
-
-and fill out the form.** [TODO: describe the form]{.todo}
+Go to *Submit* → Choose whether you want to submit a *Method* or a *Tutorial* → Fill out the *form* → Done!
 
 ## 7. Wait for our check
 
-We check whether your submission fulfills the Methods Hub criteria. We may get back to you with suggestions for improvement, or accept it for publication.
-
-Potentially: Revise your submission 
+We check whether your submission fulfills the Methods Hub criteria and may get back to you with suggestions for improvement, or accept it for publication.
 
 ## 8. Get published!
-... 
+
 Once published, your method or tutorial gets its own page on the Methods Hub and a DOI that you can share and others can cite.
 
 

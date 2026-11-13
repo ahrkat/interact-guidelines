@@ -2,6 +2,7 @@
 title: "Our recommendations"
 subtitle: "We gathered a few suggestions for you to make the most out of your submission"
 ---
+**WILL BE EXCLUDED**
 
 Your submissions will mostly be read by social scientists who want to apply a method or use your tutorial to their own research questions. A good submission lets them understand *why* each step is taken, run the code themselves, and adapt it to their own data. Here is how you can get there.
 
