@@ -22,7 +22,7 @@ website:
     contents:
       - index.qmd
       - checklist.qmd
-      - tips.qmd 
+     # - tips.qmd 
       - faq.qmd
   page-footer:
     left: "[methodshub.gesis.org](https://methodshub.gesis.org)"
